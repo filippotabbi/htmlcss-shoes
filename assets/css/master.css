@@ -6,14 +6,22 @@
 
 .pull {
  display: inline-block;
- font-size: 30px;
  z-index: 1000;
  position: fixed;
- top: 0;
- right: 10vw;
+ top: 2vh;
+ right: 5vw;
 }
-span {
-margin-right: 5vw;
+
+.circle {
+border-radius: 50%;
+padding: 10px 20px 10px 20px;
+background-color: white;
+font-size: 30px;
+text-decoration: none;
+color: black;
+margin: 20px;
+border: 2px solid black;
+text-shadow: 10%;
 }
 
 .bg_red {
@@ -33,15 +41,15 @@ margin-right: 5vw;
 }
 .jumbo {
 position: absolute;
-top: 50vh;
-left: 50vw;
+top: 50%;
+left: 50%;
 transform: translate( -50%, -50%);
 }
 
 .jumbo2 {
 position: absolute;
-top: 150vh;
-left: 50vw;
+top: 150%;
+left: 50%;
 transform: translate( -50%, -50%);
 }
 
@@ -52,18 +60,16 @@ left: 50vw;
 transform: translate( -50%, -50%);
 }
 
-.jumbo:after{
-  content: "";
-  display: table;
-  clear: both;
+.text_under_shoes {
+  font-size: 55px;
+  text-align: center;
+  font-family: 'Coda Caption', sans-serif;
+  color: yellow ;
 }
-.jumbo2:after{
-  content: "";
-  display: table;
-  clear: both;
-}
-.jumbo3:after{
-  content: "";
-  display: table;
-  clear: both;
+
+.text_under_shoes3 {
+  font-size: 55px;
+  text-align: center;
+  font-family: 'Coda Caption', sans-serif;
+  color: green ;
 }
